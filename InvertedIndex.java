@@ -20,13 +20,13 @@ public class InvertedIndex {
 	/**
 	 * Map of String text file paths and Integer word count
 	 */
-	private final Map<String, Integer> countMap;
+	private Map<String, Integer> countMap;
 
 	/**
 	 * TreeMap of String words, Nested TreeMap of file paths for String word, Nested
 	 * TreeSet of Integer indexes for file path of each word
 	 */
-	private final TreeMap<String, TreeMap<String, TreeSet<Integer>>> wordMap;
+	private TreeMap<String, TreeMap<String, TreeSet<Integer>>> wordMap;
 
 	/**
 	 * Creates type InvertedIndex that takes in data structures for passing into
