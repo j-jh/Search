@@ -20,10 +20,10 @@ import org.apache.logging.log4j.Logger;
 public class WorkQueue {
 
 	/** Workers that wait until work (or tasks) are available. */
-	private final Worker[] workers;
+	private Worker[] workers;
 
 	/** Queue of pending work (or tasks). */
-	private final LinkedList<Runnable> tasks;
+	private LinkedList<Runnable> tasks;
 
 	/** Used to signal the workers should terminate. */
 	private volatile boolean shutdown;
