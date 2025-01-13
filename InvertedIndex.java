@@ -123,7 +123,7 @@ public class InvertedIndex {
 	}
 
 	/**
-	 * getCountMap for accessing contents of private final structure
+	 * getCountMap for accessing contents of map
 	 * 
 	 * @return unmodifiable wordMap data structure
 	 */
@@ -162,7 +162,7 @@ public class InvertedIndex {
 	}
 
 	/**
-	 * getWordMap for accessing contents of private final structure
+	 * getWordMap for accessing contents of map
 	 * 
 	 * @return unmodifiable wordMap data structure
 	 */
