@@ -11,7 +11,7 @@ public class ArgumentParser {
 	/**
 	 * Stores command-line arguments in flag/value pairs.
 	 */
-	private final Map<String, String> map;
+	private Map<String, String> map;
 
 	/**
 	 * Initializes argument map.
