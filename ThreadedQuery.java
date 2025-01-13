@@ -16,7 +16,7 @@ public class ThreadedQuery implements QueryInterface {
 	/**
 	 * for storing query search results + file path
 	 */
-	private final TreeMap<String, ArrayList<InvertedIndex.QuerySearchResults>> querySR;
+	private TreeMap<String, ArrayList<InvertedIndex.QuerySearchResults>> querySR;
 
 	/**
 	 * InvertedIndex to use inverted index methods
